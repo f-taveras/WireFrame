@@ -1,0 +1,95 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topHeader{
+    
+   flex-direction: row;
+   width: 100%;
+}
+
+.logo{
+margin-left: 50px;
+}
+
+.navBar{
+    padding: 10px;
+    display: flex;
+    flex: 1;
+    background: #333;
+    width: 100%;
+    
+}
+
+.navLinks{
+    max-height: 20px;
+    align-self: center;
+    
+}
+.navLinks ul{
+    list-style: none;
+    
+    
+    
+}
+
+.navLinks ul li {
+    /* justify-content: space-around; */
+    display: inline;
+    margin: 50px;
+    
+}
+.navLinks ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    
+}
+
+.topImg{
+    margin: 25px;
+}
+.deck{
+    display: flex;
+    flex-direction: row;
+    
+}
+.deck img{
+    padding: 15px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 965px;
+    padding: 15px;
+}
+
+footer{
+    background: #333;
+    height: 70px;
+    width: 100%;
+}
+article{
+    padding: 20px;
+}
+
+header h2{
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+nav ul li{
+    display: flex;
+    padding-left: 20px ;
+}
+
